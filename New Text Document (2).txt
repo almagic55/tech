@@ -1,0 +1,6 @@
+select BillingAddress ,BillingCity,BillingCountry,
+BillingPostalCode,BillingState,InvoiceDate,Total,CustomerId
+from invoice 
+where invoiceDate between '01-01-2013' and '01-01-2014'
+
+
